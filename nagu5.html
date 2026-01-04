@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nagaveni Nagashetty | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif;scroll-behavior:smooth;}
+body{background:#0f172a;color:#e5e7eb}
+
+/* NAVBAR */
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(2,6,23,.95);
+padding:10px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+nav h2{
+background:linear-gradient(90deg,#38bdf8,#22c55e);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+nav ul{display:flex;list-style:none;}
+nav ul li{margin-left:22px;}
+nav ul li a{color:#e5e7eb;text-decoration:none;font-size:14px}
+
+/* HERO */
+.hero{
+min-height:100vh;
+background:linear-gradient(120deg,#020617,#1e293b);
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding-top:80px;
+}
+.hero h1{
+font-size:3rem;
+background:linear-gradient(90deg,#38bdf8,#22c55e);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+.hero p{color:#cbd5f5;margin-top:15px}
+
+/* SECTIONS */
+section{padding:80px 10%}
+h2{text-align:center;margin-bottom:40px;color:#38bdf8}
+
+/* GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px}
+
+/* CARD */
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:18px;
+border:1px solid rgba(56,189,248,.2);
+transition:.4s;
+}
+.card:hover{transform:translateY(-10px);box-shadow:0 0 40px rgba(34,197,94,.4)}
+.card h3{color:#22c55e}
+
+/* HOBBIES */
+.hobby img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:15px;
+display:block;
+}
+
+/* CONTACT */
+.contact-box{text-align:center}
+.contact-box a{
+display:inline-block;
+margin:10px;
+padding:12px 28px;
+border-radius:30px;
+border:1px solid #38bdf8;
+color:#38bdf8;
+text-decoration:none;
+}
+.contact-box a:hover{background:#38bdf8;color:#020617}
+
+/* FOOTER */
+footer{background:#020617;text-align:center;padding:25px;color:#94a3b8}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Nagaveni</h2>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#hobbies">Hobbies</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div id="home" class="hero">
+<div>
+<h1>Nagaveni Nagashetty</h1>
+<p>AI & Data Science Engineer | Frontend Developer</p>
+</div>
+</div>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+I am an AI & Data Science student passionate about frontend development and data analytics, creating intelligent and responsive web applications.
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card">HTML, CSS, JavaScript</div>
+<div class="card">Python & SQL</div>
+<div class="card">Data Analysis & Machine Learning</div>
+<div class="card">Power BI, Excel, GitHub</div>
+<div class="card">MySQL & PostgreSQL</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>Medicine Prediction</h3>Disease prediction using ML</div>
+<div class="card"><h3>Travel Recommendation</h3>Travel suggestions based on preferences</div>
+</div>
+</section>
+
+<section id="hobbies">
+<h2>Hobbies</h2>
+<div class="grid">
+<div class="card hobby"><img src="C:\Users\abhishek\OneDrive\Desktop\my1\mandala.jpeg"><p>Mandala Art & Drawing</p></div>
+<div class="card hobby"><img src="C:\Users\abhishek\OneDrive\Desktop\my1\cooking.jpeg"><p>Cooking</p></div>
+<div class="card hobby"><img src="C:\Users\abhishek\OneDrive\Desktop\my1\birds.jpeg"><p>Art & Nature Illustration</p></div>
+<div class="card hobby"><img src="C:\Users\abhishek\OneDrive\Desktop\my1\movies.jpeg"><p>Watching Movies</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="contact-box">
+<p>nagaveninagashetty21@gmail.com</p>
+<a href="mailto:nagaveninagashetty21@gmail.com">Email</a>
+<a href="https://www.linkedin.com/in/nagaveni-nagashetty-8036b527a">LinkedIn</a>
+<a href="https://github.com/Nagaveni3411">GitHub</a>
+</div>
+</section>
+
+<footer>© 2026 Nagaveni Nagashetty</footer>
+
+</body>
+</html>
